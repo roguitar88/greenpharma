@@ -6,6 +6,8 @@
 * MySQL
 * AdminLTE 3.0.5 (Bootstrap)
 
+**Complementos utlizados:** Livewire (Jetstream), Middleware, Blade, Migrations, etc.
+
 ## Instruções:
 * Na pasta *database/* se encontra o banco green_pharma.sql para importação.
 * Na pasta *extra/* se encontra o arquivo **sales.csv**. É ele que será usado na rota */feed* para fazer o teste de upload para o banco de dados.
@@ -20,5 +22,12 @@
 * /register : cadastro
 * /user/profile : gerenciamento do perfil (senha, etc.)
 * /view : onde são visualizadas as planilhas enviadas
+* /manageusers
 
-**Complementos utlizados:** Livewire (Jetstream), Middleware, Blade, Migrations, etc.
+## Credenciais e usuários:
+Para logar, podes usar quaisquer das contas abaixo:
+* admin@gmail.com (123), credencial de administrador;
+* admin2@gmail.com (123), credencial de administrador;
+* anal@gmail.com (123), credencial de analista.
+
+# Obrigado, de coração!
