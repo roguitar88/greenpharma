@@ -22,7 +22,7 @@
 * /register : cadastro
 * /user/profile : gerenciamento do perfil (senha, etc.)
 * /view : onde são visualizadas as planilhas enviadas
-* /manageu-sers : lista de usuários cadastrados
+* /manage-users : lista de usuários cadastrados 
 
 ## Credenciais e usuários:
 Para logar, podes usar quaisquer das contas abaixo:
@@ -31,3 +31,4 @@ Para logar, podes usar quaisquer das contas abaixo:
 * anal@gmail.com (123), credencial de analista.
 
 # Obrigado, de coração!
+
