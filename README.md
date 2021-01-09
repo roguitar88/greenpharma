@@ -22,7 +22,7 @@
 * /register : cadastro
 * /user/profile : gerenciamento do perfil (senha, etc.)
 * /view : onde são visualizadas as planilhas enviadas
-* /manageusers
+* /manageu-sers : lista de usuários cadastrados
 
 ## Credenciais e usuários:
 Para logar, podes usar quaisquer das contas abaixo:
