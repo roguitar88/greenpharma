@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+@-ms-viewport {
+    width: device-width;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    /* [disabled]box-sizing: border-box; */
+}
+
+body {
+    margin: 0;
+    /* background: none; */
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    /*overscroll-behavior-y: none;*/
+}
+
+.mainwrapper {
+    width: 100%;
+    min-height: 100%;
+    /* overflow: auto; */
+    position: relative;
+    margin: auto;
+    border:0px solid black;
+}
+
+.section1 {
+    width: 80%;
+    min-width:330px;
+    height: auto;
+    position: relative;
+    overflow: auto;
+    margin:auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 3%;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* overflow: auto; */
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 4%;
+    padding-bottom: 50px;
+    /*background: rgb(110,106,102);*/
+    /*background-image: url("../images/66e2a70180404b47a66ebed738b09417.jpg");*/
+    /*background-image: linear-gradient(150deg, rgba(110, 106, 102, .5) 0%, rgba(110, 106, 102, .75) 100%), url("../images/66e2a70180404b47a66ebed738b09417.jpg");*/
+    /*background-position:  0 20%*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+textarea {
+    resize: none;
+}
+
+#img-absolute {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 40px;
+    width: 20%;
+    height: auto;
+    z-index: -1;
+    display: none;
+}
+
+.cust-btn{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color:grey;
+    margin-top: 12px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.cust-btn:focus{
+    outline:none;
+}
+
+.cust-btn:hover{
+    color:black;
+}
+
+/*
+.nobutton{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color:grey;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size:0.8rem;
+    position: relative;
+}
+
+.nobutton:focus{
+    outline:none;
+}
+
+.nobutton:hover{
+    color:black;
+}
+
+.mypds{
+    width: 100%;
+    padding-top:150px;
+    padding-left:10%;
+    padding-right:10%;
+    border-bottom: .5px solid #ccc;
+    position: relative;
+}
+*/
+
+header > .navbar {
+    background-color: #478166;
+}
+
+.navbar-brand{
+    position:relative;
+    width:75%;
+    min-width: 200px;
+    padding-left:20px;
+}
+
+.navbar-toggler{
+    position:relative;
+}
+
+.navbar-toggler:focus{
+    outline:none;
+}
+
+/*
+.ad_button{
+    padding: 0px 25px 0px 25px;
+    background: #f500ff;
+    color:white;
+    font-weight: bolder;
+    font-size:80%;
+    border: 0;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.ad_button:hover{
+    background: #f770fd;
+}
+
+.ad_button:focus{
+    outline:none;
+}
+*/
+
+nav{
+    border-bottom: .5px solid #ccc;
+}
+
+.navbar-nav > li{
+    padding-left:25px;
+    background-color: none;
+    /*
+    list-style-type: none;
+    */
+}
+
+.navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size:80%;
+    /*
+    text-decoration: none;
+    color: grey;
+    font-size: 95%;
+    */
+}
+
+#img{
+    width:50%;
+    height:auto;
+    margin-top: -20px;
+    position:relative;
+}
+
+.footerlinks{
+    font-size:90%;
+}
+
+.footerlinks li{
+    margin-right:20px;
+}
+
+.footerlinks li a{
+    color:black;
+    text-decoration:none;
+}
+
+.footerlinks li a:hover{
+    text-decoration: none;
+    color:grey;
+}
+
+.socialicons{
+    font-size:100%;
+}
+
+.socialicons li{
+    padding-right: 30px;
+}
+
+.socialicons li a{
+    color:grey;
+    text-decoration:none;
+}
+
+.socialicons li a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+/* Footer */
+/* Wrapper for page content to Push down footer */
+main {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -250px;
+}
+
+/* Set the fixed height of the footer here */
+#Push,
+#footer {
+    height: 250px;
+}
+
+#footer2 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: left;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 100%;
+    color: white;
+}
+
+#footer2 a, #footer2 a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 750px) {
+    #footer {
+        height: 280px;
+    }
+
+    .section2 {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1280px){
+}
+
+@media  only screen and (min-width: 1280px) and (max-width: 1400px){
+    #img-absolute {
+        display: block;
+    }
+}
