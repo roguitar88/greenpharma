@@ -29,6 +29,3 @@ Para logar, podes usar quaisquer das contas abaixo:
 * admin@gmail.com (123), credencial de administrador;
 * admin2@gmail.com (123), credencial de administrador;
 * anal@gmail.com (123), credencial de analista.
-
-# Obrigado, de coração!
-
